@@ -2,7 +2,7 @@
 Alexa Master is a popular community for advertisers to promote their websites for millions of visitors to get traffic for a reasonable price. Many advertisers lose their money on big companies as these companies charge a lot of money for a single visitor who are worthless 90% at the end. I keep developing this platform to help advertisers to save their money on worthless expensive web traffic. Explore more here: https://www.alexamaster.net/
 
 # What is this tool?
-I have developed a tool to import bulk websites to your alexamaster account. This tool will read a CSV file (Check Sample CSV File) and import them to your user account in a flash. Here are main column names you must have in CSV,
+I have developed a tool to import bulk websites to your alexamaster account. This tool will read a CSV file (Check Sample CSV File here: https://github.com/DeveloperDilantha/AM-Bulk-Import-Websites-CSV/blob/main/SampleCSV.csv) and import them to your user account in a flash. Here are main column names you must have in CSV,
 
 1) URL - Your website address.
 
