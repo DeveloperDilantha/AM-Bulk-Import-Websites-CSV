@@ -1,8 +1,7 @@
-# About Alexa Master Community!
-Alexa Master is a popular community for advertisers to promote their websites for millions of visitors to get traffic for a reasonable price. Many advertisers lose their money on big companies as these companies charge a lot of money for a single visitor who are worthless 90% at the end. I keep developing this platform to help advertisers to save their money on worthless expensive web traffic. Explore more here: https://www.alexamaster.net/
 
-# What is this tool?
-I have developed a tool to import bulk websites to your alexamaster account. This tool will read a CSV file (Check Sample CSV File here: https://github.com/DeveloperDilantha/AM-Bulk-Import-Websites-CSV/blob/main/SampleCSV.csv) and import them to your user account in a flash. Here are main column names you must have in CSV,
+
+# Import multiple websites to Alexa Master using a CSV file
+I have developed a tool to import bulk websites to your alexamaster account. This tool will read websites list from a CSV file and import them to your user account in a flash. First of all create your CSV file by following below fields.
 
 1) URL - Your website address.
 
@@ -10,14 +9,16 @@ I have developed a tool to import bulk websites to your alexamaster account. Thi
 
 3) BID - Number of points you spend per visit.
 
-4) TYPE - This can have varchar(2) values. Please read key chart below,
+4) TYPE - You can select Real/Auto traffic option from here. Please read key chart below,
 
-5) COUNTRY - This can have varchar(2) values. Please read key chart below,
+5) COUNTRY - You can add target country here. Please read key chart below,
 
 6) DELAY - The delay between each visit. It should be a number from 0 to 60.
 
 7) LIMIT - This is the daily traffic limit. Keep it 0 for unlimited visits.
 
+You can see a sample CSV here: https://github.com/DeveloperDilantha/AM-Bulk-Import-Websites-CSV/blob/main/SampleCSV.csv
+There is no limit for the rows in your CSV file. Somehow, our system will refuse your import process if you do not have enough points or VIP days.
 
 # Key Chart for traffic TYPE
 
@@ -293,3 +294,5 @@ I have developed a tool to import bulk websites to your alexamaster account. Thi
     "ZW" => "Zimbabwe",
     "AX" => "Åland Islands",
     
+# About Alexa Master Community!
+Alexa Master is a popular community for advertisers to promote their websites for millions of visitors to get traffic for a reasonable price. Many advertisers lose their money on big companies as these companies charge a lot of money for a single visitor who are worthless 90% at the end. I keep developing this platform to help advertisers to save their money on worthless expensive web traffic. Explore more here: https://www.alexamaster.net/
